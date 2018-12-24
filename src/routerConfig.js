@@ -5,6 +5,7 @@
 import BasicLayout from './layouts/BasicLayout';
 import Home from './pages/Home';
 import Page3 from './pages/Page3';
+import Page4 from './pages/Page4';
 import NotFound from './pages/NotFound';
 
 const routerConfig = [
@@ -17,6 +18,11 @@ const routerConfig = [
     path: '/page3',
     layout: BasicLayout,
     component: Page3,
+  },
+  {
+    path: '/page4',
+    layout: BasicLayout,
+    component: Page4,
   },
   {
     path: '*',

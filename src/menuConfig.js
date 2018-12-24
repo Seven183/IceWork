@@ -55,6 +55,11 @@ const asideMenuConfig = [
     path: '/page3',
     icon: 'home',
   },
+  {
+    name: 'Nav4',
+    path: '/page4',
+    icon: 'home',
+  },
 ];
 
 export { headerMenuConfig, asideMenuConfig };
